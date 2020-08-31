@@ -1,4 +1,4 @@
-[< Back to index](index.md)
+##### [< Back to index](index.md)
 
 ## JHP Links Plugin
 -----
