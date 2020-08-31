@@ -3,15 +3,25 @@
 ## JHP Audit Plugin
 -----
 The **JHP Audit** plugin adds 2 new submenu items to the _JHP_ > _Audit_ menu within Archicad.
-- **LiveAudit** - Toggles on and off the LiveAudit visual feedback
+- **Live Audit** - Toggles on and off the Live Audit visual feedback
 - **Help** - Opens this document in your web browser
+
+![auditmenu](images/auditmenu.png)
 
 The **LiveAudit** feature is intended to be a suite of visual feedbacks for the user. 
 
 At it's core, this plugin allows us to define a series of "tests" or _audits_ that drawn elements must pass to avoid being highlighted. The highlight of these elements **does not print or show up in the final set in any way**. It is not a graphic override.
 
-When the LiveAudit tool is toggled on, it will automatically perform all available audits on all applicable elements, and provide highlighted visual feedback for any that fail the audits. As you draw new elements, the same audits will be performed when the element is placed.  
+To enable the Live Audit tool, select it's menu option. The toggled on icon will appear and all elements in the project will be audited automatically.
+
+![liveaudittoggle](images/liveaudittoggle.png)
+
+When the Live Audit tool is toggled on, it will automatically perform all available audits on all applicable elements, and provide highlighted visual feedback for any that fail the audits. As you draw new elements, the same audits will be performed when the element is placed.  
 If you select an element and change it, it will also be audited again as soon as you _deselect_ the element.
+
+In addition to the highlighted feedback, a new info box is added to the built-in info panel to display a small scrollable list containing any failed audits for the currently selected element. The column on the left is a short name for the audit performed and the right column has the actual failed value color coded the same as the highlighted element.
+
+![feedbackinfobox](images/feedbackinfobox.png)
 
 Currently, the plugin only supports two audits:
 - Wall Angle
@@ -37,6 +47,8 @@ However, when using a metal composite, the wall is allowed to be to a nearest 1/
 Again, this is a means of locating incorrect inputs, or where walls clean up and create odd dimensions that can become visible when dimensioned, as Archicad doesn't show us lengths to a smaller fraction than 1/64". 
 
 ----
+
+![lengthanglecheckexample](images/lengthanglecheckexample.png) 
 
 #### Note: 
 This tool is designed to aid in the drawing of new walls and ensure that the angle and length are input _as intended_, to **help reduce** the number of errors down the line when dimensioned. It will be less effective for projects further along that may already have these errors.   
