@@ -1,6 +1,6 @@
 ##### [< Back to index](index.md)
 
-## JHP Audit Plugin
+## JHP Audit
 -----
 The **JHP Audit** plugin adds 2 new submenu items to the _JHP_ > _Audit_ menu within Archicad.
 - **Live Audit** - Toggles on and off the Live Audit visual feedback
