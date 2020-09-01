@@ -9,7 +9,7 @@ The **JHP Audit** plugin adds 2 new submenu items to the _JHP_ > _Audit_ menu wi
 
 ![auditmenu](images/auditmenu.png)
 
-The **LiveAudit** feature is intended to be a suite of visual feedbacks for the user. 
+The **Live Audit** feature is intended to be a suite of visual feedbacks for the user. 
 
 At it's core, this plugin allows us to define a series of "tests" or _audits_ that drawn elements must pass to avoid being highlighted. The highlight of these elements **does not print or show up in the final set in any way**. It is not a graphic override.
 
